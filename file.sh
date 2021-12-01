@@ -7,9 +7,9 @@ cd app
 mkdir -p $PWD/inputs
 mkdir -p $PWD/output
 
-docker run -i --name container1 -v $PWD/inputs:/app/inputs \
+docker create -i --name container1 -v $PWD/inputs:/app/inputs \
 				 -v $PWD/output:/app/output \
 			         eaubree/project:latest
 			         
-			         
+
 			     
