@@ -16,6 +16,6 @@ To execute the application :
 In order to execute build_app.sh and execute.sh, open a terminal in the working directory and simply write the command 'bash build_app.sh' and 'bash execute.sh'.
 
 
-Classifier contains the python code to train the model (MLP) to classify MNIST data set.
+Classifier contains the python code to train the model (MLP) with MNIST data set.
 docker_app contains the Dockerfile and the files/directories required to build an image.
 MNIST_handwrittendigits contains 10 images of hand written digits extracted from the test set.
