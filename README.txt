@@ -8,7 +8,7 @@ To build the application :
 	
 	- First execute build_app.sh on your working directory
 	- A new directory should have been created and named "handWrittenDigits_classification/" as well as two sub-directories : "inputs/" and "output/". 
-	- The inputs directory is where the data (hand written digit images) to be processed should be placed.
+	- The inputs directory is where the data to be processed (hand written digit images) should be placed.
 	- The output directory is where you will find a json file with the classification result.
 	- Once the data is placed in "inputs/" the application can be executed with the file execute.sh
 	
